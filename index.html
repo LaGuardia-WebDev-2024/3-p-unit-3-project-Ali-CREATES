@@ -1,9 +1,9 @@
 <!--
 Requirements
 [  ] Two External Links
-[  ] Table
-[  ] Three CSS Rules
-[  ] Three Images
+[Yes] Table
+[Yes] Three CSS Rules
+[Yes] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include a :hover feature
@@ -14,47 +14,147 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Bubblegum Sans"
+      rel="stylesheet"
+    />
+    <title>Project: Recipe book</title>
+    <meta charset="utf-8" />
+    <style>
+          table,
+          th,
+          td {
+            border: 2px solid; border-radius:10px;
+          }
 
-<head>
-  <title>Project: Recipe book</title>
-  <meta charset="utf-8">
-  <style>
-  </style>
-</head>
+          body {
+          background-color: #FFF5E0;
+          color: #141E46;
+             font-family: 'Bubblegum Sans';font-size: 18px;
 
-<body>
+            .boo {
+             background-color: #FFBE98; border-radius:30px;
+      Blah
+            }
 
-  <h1>____'s Recipe Book</h1>
+            img {border-radius: 10%;}
+    </style>
+  </head>
 
-  <h2>Contents:</h2>
+  <body>
+    <h1>Ali's Recipe Book</h1>
 
-  <ol>
-    <li><a href="?">Recipe #1</a></li>
-  </ol>
+    <h2>Contents:</h2>
 
-  <h2 id="?">Recipe #1</h2>
+    <ol>
+      <li><a href="#Recipe">Recipe</a></li>
+      <li><a href="#Steps">Instructions (Step-by-Step)</a></li>
+    </ol>
 
-  <ul>
-    <li>Time: _</li>
-    <li>Serves: _</li>
-  </ul>
+    <h2 id="Recipe">Recipe #1 Cheese Tteokbokki</h2>
 
-  <table>
-    <thead>
-      <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-  </table>
+    <img
+      src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQIaCsmUlcEOdCG156uQW5ysgZ0Qkf1ywdnQ&s"
+      width="150"
+    />
+    <img
+      src="https://cdn.glitch.global/fe2753dd-5670-4245-a19a-4740ddf9a296/thumbnails%2F43a65406-d710-4114-b93d-396a3e81db7d.image.png?1729519779718"
+      width="180"
+      height="224"
+    />
+    <img
+      src="https://lh6.googleusercontent.com/Imok6iFTCEtyyqZZXvT0QkOltbyouHgZd6-J26kEtcoNQ_D-DU9NuXpVQ1JknZs-qofsi8-RB9-8iVQqRnlN9QSNRUho1Di_pjMJ2IOMLcpvQIuDSpdXdTz0Sky3pYviK3wIyzth"
+      width="160"
+      height="224"
+    />
+    <ul>
+      <li>Time: 25 Minutes</li>
+      <li>Serves: 2</li>
+    </ul>
 
-  <p><strong>Step 1:</strong> Do something.
-  </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Ingredients</th>
+          <th>Quantity</th>
+        </tr>
+        <td>
+          <ul>
+            <li>cups chicken broth (350ml)</li>
+            <li>tbsp gochujang</li>
+            <li>tsp soy sauce</li>
+            <li>tsp sugar</li>
+            <li>tbsp gochugaru (Korean red pepper flakes)</li>
+            <li>cups rice cakes (360g)</li>
+            <li>hard boiled eggs</li>
+            <li>sheets fish cakes (80g)</li>
+            <li>tbsp roasted sesame seeds</li>
+            <li>tsp toasted sesame oil</li>
+            <li>stalks green onion, or scallions</li>
+            <li>shredded mozzarella cheese</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>1.5</li>
+            <li>2</li>
+            <li>1</li>
+            <li>1</li>
+            <li>1</li>
+            <li>2</li>
+            <li>2</li>
+            <li>2</li>
+            <li>1</li>
+            <li>1</li>
+            <li>4</li>
+            <li>1</li>
+          </ul>
+        </td>
+      </thead>
 
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
+      <tbody></tbody>
+    </table>
 
-</body>
+    <h2 id="Steps">Step 1</h2>
+    <p class="boo">
+      <br />1. Cut the fish cake sheets into triangles if needed and rinse the
+      rice cakes with cool water.<br />
+      <br />
+      2. Add the chicken broth, gochujang, soy sauce, sugar and gochugaru to a
+      pan on medium high heat. Bring it to a boil, then add the rice cakes.
+      <br />
+      <br />
+      3. Stir occasionally so the rice cakes do not stick to the bottom of the
+      pan and stir more often as it continues to cook. Cook for about 4 minutes
+      until the sauce has thickened. Remove the pan from the heat and add the
+      boiled eggs, fish cakes, sesame seeds, sesame oil and green onions.<br />
+      <br />
+      4. Make sure there is enough sauce in the pan and add more broth if more
+      sauce is needed. The sauce will continue to thicken and if there’s not
+      enough sauce, then the tteokbokki will dry out when melting the cheese.<br />
+      <br />
+      5. Add a thin layer of cheese on top, cover it and turn the heat back on
+      to low. Remove from the heat when the cheese has melted and enjoy straight
+      from the pan!<br />
 
+      <br />
+    </p>
+
+    <p>
+      <em>
+        Source:
+        <a target="_blank" href="https://jasmineandtea.com/cheese-tteokbokki/">
+          Jasmine and Tea</a
+        >
+        <br />Alternative Recipe:
+        <a
+          target="_blank"
+          href="https://www.foodnetwork.ca/recipe/cheesy-tteokbokki/"
+        >
+          Food Network</a
+        >
+      </em>
+    </p>
+  </body>
 </html>
